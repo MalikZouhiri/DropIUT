@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!ELEMENT journal (logo,rubrique*)>
+<!ATTLIST journal
+	nom CDATA #REQUIRED
+>
+
+<!ELEMENT logo EMPTY>
+<!ATTLIST logo
+	adresse CDATA #REQUIRED
+>
+
+<!ELEMENT rubrique (article*)>
+<!ATTLIST rubrique
+	theme CDATA #REQUIRED
+>
+
+<!ELEMENT article (titre, auteur, contenu)>
+<!ATTLIST article
+	date CDATA #REQUIRED
+>
+
+<!ELEMENT titre (#PCDATA)>
+
+<!ELEMENT auteur (#PCDATA)>
+
+<!ELEMENT contenu (ingredients, etapes)>
+
+<!ELEMENT ingredients (ingredient*)>
+<!ELEMENT ingredient (#PCDATA)>
+
+<!ELEMENT etapes (etape*)>
+<!ELEMENT etape (#PCDATA)>
+	

@@ -1,0 +1,14 @@
+<?xml version="1.0"?>
+<liste_personnes>
+<personne sexe="fille">
+<prenom>Louise</prenom>
+<nom>Kissassoul</nom>
+<naissance>3 novembre 1970</naissance>
+</personne>
+<personne sexe="garcon">
+<prenom>Bart</prenom>
+<nom>Aba</nom>
+<naissance>12 janvier 1982</naissance>
+</personne>
+</liste_personnes>
+

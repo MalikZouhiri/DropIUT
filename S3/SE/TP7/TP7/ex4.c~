@@ -1,0 +1,20 @@
+#include <unistd.h>
+#include <signal.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+
+
+void reveil (int s)
+{
+	printf("l'alarme sonne !\n");
+}
+
+int main()
+{
+	signal(SIGALRM, reveil);
+	alarm(1);	
+	while(1);
+		
+	exit (EXIT_SUCCESS);
+}

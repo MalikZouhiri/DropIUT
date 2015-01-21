@@ -1,0 +1,75 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+
+<SCRIPT LANGUAGE="Javascript1.1">
+function lightUp(nom,texte) { 
+  document.images[nom].src="buttafia.php?"+texte+",0,255,0";
+} 
+function dimDown(nom,texte) { 
+  document.images[nom].src="buttafia.php?"+texte+",255,255,255";
+}
+function nopage(texte) {
+  alert('pas de page '+texte);
+}
+</SCRIPT>
+
+
+<title>Boutons automatiques</title>
+<link REL="stylesheet" TYPE="text/css"
+      HREF="http://www.grappa.univ-lille3.fr/~torre/site.css">
+</head>
+
+<BODY>
+<DIV CLASS="menu">
+<DIV CLASS="partmenu">
+<UL>
+
+<LI> voir le <A HREF="http://www.grappa.univ-lille3.fr/~torre/Enseignement/TPs/PHP/rollover.html.src">code de cette page</A>
+
+<LI> retour à la page des <A HREF="http://www.grappa.univ-lille3.fr/~torre/Enseignement/TPs/PHP/">Travaux pratiques PHP</A>
+
+<LI> retour à la page de <A HREF="http://www.grappa.univ-lille3.fr/~torre/">Fabien Torre</A>
+</UL>
+
+</DIV>
+</DIV>
+<DIV CLASS="page">
+<H1>Boutons automatiques</h1>
+
+<TABLE CLASS="sansbord" BORDER="1" width="70%">
+<TR>
+<TD ALIGN="center" WIDTH>
+
+
+<A HREF="javascript:;" onMouseOver="lightUp('Lien_1','Premier')"
+    onMouseOut="dimDown('Lien_1','Premier')" onClick="nopage('Premier')">
+    <IMG BORDER=0 NAME="Lien_1" SRC="buttafia.php?Premier,255,255,255"></A><BR>
+<A HREF="javascript:;" onMouseOver="lightUp('Lien_2','Second')"
+    onMouseOut="dimDown('Lien_2','Second')" onClick="nopage('Second')">
+    <IMG BORDER=0 NAME="Lien_2" SRC="buttafia.php?Second,255,255,255"></A><BR>
+<A HREF="javascript:;" onMouseOver="lightUp('Lien_3','Dernier')"
+    onMouseOut="dimDown('Lien_3','Dernier')" onClick="nopage('Dernier')">
+    <IMG BORDER=0 NAME="Lien_3" SRC="buttafia.php?Dernier,255,255,255"></A><BR>
+<A HREF="javascript:;" onMouseOver="lightUp('Lien_4','Autre')"
+    onMouseOut="dimDown('Lien_4','Autre')" onClick="nopage('Autre')">
+<IMG BORDER=0 NAME="Lien_4" SRC="buttafia.php?Autre,255,255,255"></A>
+    
+</TD>
+<TD WIDTH="100%\" VALIGN="top" ALIGN="center">
+Image vide de départ :
+<BR><BR>
+<IMG SRC="buttvide.png">
+<BR><BR><BR>
+Utilisation simple :
+<BR><BR>
+<IMG SRC="buttafia.php?Simple,255,0,0">
+</TD>
+</TR>
+</TABLE>
+
+<BR><BR><BR>
+
+</DIV>
+</body>
+</html>

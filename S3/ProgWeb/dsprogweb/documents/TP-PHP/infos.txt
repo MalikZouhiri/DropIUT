@@ -1,0 +1,7 @@
+Nom=Torre
+Prénom=Fabien
+E-mail=toto@univ.fr
+Page web=http://www.grappa.univ-lille3.fr/~torre/
+Bureau=Maison des informaticiens
+Téléphone=(33) 03.20.41.61.78
+Fax=(33) 03.20.41.63.79 

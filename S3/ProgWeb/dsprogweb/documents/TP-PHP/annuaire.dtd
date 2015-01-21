@@ -1,0 +1,6 @@
+<!ELEMENT liste_personnes (personne+)>
+<!ELEMENT personne (prenom,nom,naissance)>
+<!ATTLIST personne sexe (garcon|fille) "fille">
+<!ELEMENT prenom(#PCDATA)>
+<!ELEMENT nom(#PCDATA)>
+<!ELEMENT naissance(#PCDATA)>

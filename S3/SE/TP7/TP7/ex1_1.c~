@@ -1,0 +1,11 @@
+#include <unistd.h>
+#include <stdlib.h>
+#include <stdio.h>
+
+int main()
+{
+	printf("processus %d attend\n", getpid());
+	pause();
+	printf("fin processus\n");
+	exit(EXIT_SUCCESS);
+}

@@ -1,0 +1,9 @@
+n=10
+a=0
+b=1
+h=(b-a)/n
+x1=a:h:b-h
+x2=a+h:h:b
+x3=(x1+x2)/2
+y3=x3**2
+S3=h*sum(y3)

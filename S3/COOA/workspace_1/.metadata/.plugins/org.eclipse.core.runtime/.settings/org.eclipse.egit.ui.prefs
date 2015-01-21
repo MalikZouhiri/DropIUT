@@ -1,0 +1,10 @@
+BranchProjectTracker__M\:\\git\\IUT_COO\\.git_master=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="master">\r\n<project>\\projet_coo_novembre</project>\r\n</projects>
+BranchProjectTracker__M\:\\git\\IUT_COO\\.git_test_removeetu=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<projects branch\="test_removeetu">\r\n<project>\\projet_coo_novembre</project>\r\n</projects>
+commit_dialog_history_messages=<?xml version\="1.0" encoding\="UTF-8"?>\r\n<messages>\r\n<message>Ajout de la javadoc pour la classe IUT</message>\r\n<message>test commit branche auxiliaire pour test</message>\r\n<message>1er commit</message>\r\n</messages>
+eclipse.preferences.version=1
+org.eclipse.egit.ui.githistorypage.showallfilter=SHOWALLREPO
+resourcehistory_compare_mode=true
+resourcehistory_graph_split=500,500
+resourcehistory_rev_split=700,300
+resourcehistory_show_all_branches=true
+show_initial_config_dialog=false

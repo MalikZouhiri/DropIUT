@@ -1,0 +1,24 @@
+#include <fcntl.h>
+#include <unistd.h>
+
+#define TAILLE 100
+
+int main()
+{
+	//Création du fichier
+	int fd, carac;
+	char buffer[TAILLE];
+
+	fd = open("out.txt", O_WRONLY | O_CREAT, 777);
+
+	while ((carac = read(0,buffer,TAILLE))>0)
+	{
+		if (write(fd,buffer,carac) == -1)
+		{
+			return -1;
+		}
+	}
+	return 0;
+}
+	
+

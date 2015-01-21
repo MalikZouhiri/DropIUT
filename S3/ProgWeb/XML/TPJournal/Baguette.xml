@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="application/xml" href="Baguette.xsl"?>
+
+<!-- DTD -->
+<!DOCTYPE journal SYSTEM "Baguette.dtd">
+
+<journal nom="Le Baguette">
+	<logo adresse="http://heraldextra.com/app/dailydeal/images/lebaguette-logo.jpg"/>
+	<rubrique theme="Art de la baguette">
+		<article date="17-11-2014">
+			<titre>Recette traditionnelle</titre>
+			<auteur>Jean-Baguette</auteur>
+			<contenu>
+				<ingredients>
+					<ingredient>500g de farine</ingredient>
+					<ingredient>350g d'eau</ingredient>
+					<ingredient>12g de sel</ingredient>
+					<ingredient>7g de levure fraîche</ingredient>
+				</ingredients>
+				<etapes>
+						
+					<etape>
+						Délayer la levure dans l'eau. Tamiser la farine, y rajouter le sel, la levure délayée dans l'eau et amalgamer l'ensemble. Avec un robot, utiliser le crochet. Le pâton obtenu est relativement collant.
+						Recouvrir d'un linge humide et laisser lever 1h00 avec 1 rabat toutes les 20min. (rabat = soulever partiellement la pâte pour ramener le dessous vers le dessus.) Couvrir et laisser lever la pâte environ 1h00 - 1h30 dans une atmosphère tiède (programme spécial dans certains four, ou dans un four préchauffé et éteint, sur le dessus d'un radiateur...)
+					</etape>
+					
+					<etape>
+						A l'issue de ce temps, verser le pâton sur un plan fariné, et étirer le pâton vers la droite et la gauche, et replier en portefeuille.
+						Recouvrir avec un torchon, laisser reposer 20min et recommencer l'opération 2 autres fois.
+					</etape>
+					
+					<etape>
+						Peser le pâton et le diviser en parts égales. Former délicatement une boule de chaque part. Laisser à nouveau reposer 20mn.
+					</etape>
+					
+					<etape>
+						Façonner en forme de baguette, et disposez les sur votre plaque ou gouttière à baguettes farinée. Laisser reposer (20 min.) et mettre le four à préchauffer à 230°C (thermostat 8/9) en plaçant un recipient métallique (ou lèchefrite) vide dans le fond du four. Grigner le pain (c.a.d. faire de petites incisions sur le dessus) et enfourner.
+					</etape>
+					<etape>
+						Remplir le récipient métallique posé dans le bas du four avec de l'eau froide (attention, le récipient est brûlant) et refermer immédiatement le four. Ceci va provoquer le coup de buée qui va permettre au pain d'avoir une croûte bien croustillante et brillante. Baisser immédiatement la température du four à 220°C (thermostat 7/8) et laisser cuire environ 15 à 20min. La durée dépendra de votre four et de la façon dont vous aimez le pain : blanc, doré, bien cuit etc... Refroidir sur une grille.
+					</etape>
+				</etapes>
+			</contenu>
+		</article>
+	</rubrique>
+		
+	<rubrique theme="Recettes">
+		<article date="25-11-2014">
+			<titre>Recette </titre>
+			<auteur>Jean-Baguette</auteur>
+			<contenu>
+				<ingredients>
+					<ingredient>25 cl de lait</ingredient>
+					<ingredient>3 oeufs</ingredient>
+					<ingredient>75 g de sucre de canne</ingredient>
+					<ingredient>6 tranches épaisses de pain paysan</ingredient>
+				</ingredients>
+				
+				<etapes>
+					<etape>Mixez les oeufs le sucre et le lait.</etape>
+
+					<etape>Mouillez-y les tranches de pain.</etape>
+
+					<etape>Passer à la poêle dans du beurre.</etape>
+				</etapes>
+			</contenu>
+		</article>
+	</rubrique>
+</journal>
+
+				

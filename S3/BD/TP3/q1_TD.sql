@@ -1,0 +1,7 @@
+Create or Replace TRIGGER verif_date
+BEFORE INSERT or UPDATE on PRICE
+FOR EACH ROW
+
+DECLARE
+	l PRICE%TYPE
+	

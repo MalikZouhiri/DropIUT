@@ -1,0 +1,359 @@
+
+<!DOCTYPE html PUBLIC
+  "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml" lang="fr">
+
+    
+    
+    
+    
+    
+
+
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+    
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+
+    
+        <base href="http://e-campus2.uvsq.fr/cours/nicopred/Cours-nicopred-20140909171718/" /><!--[if lt IE 7]></base><![endif]-->
+    
+
+    
+        
+<link rel="kss-base-url" href="http://e-campus2.uvsq.fr/cours/nicopred/Cours-nicopred-20140909171718/" />
+
+  
+    <link rel="stylesheet" type="text/css" media="screen" href="http://e-campus2.uvsq.fr/portal_css/UVSQ/member-cachekey1854.css" />
+    <link rel="stylesheet" type="text/css" href="http://e-campus2.uvsq.fr/portal_css/UVSQ/base-cachekey8767.css" />
+        <!--[if lt IE 8]>    
+    
+    <link rel="stylesheet" type="text/css" media="screen" href="http://e-campus2.uvsq.fr/portal_css/UVSQ/IEFixes-cachekey3536.css" />
+        <![endif]-->
+    
+    <style type="text/css">@import url(http://e-campus2.uvsq.fr/portal_css/UVSQ/resourcequickupload_staticuploadify-cachekey7655.css);</style>
+    <style type="text/css" media="screen">@import url(http://e-campus2.uvsq.fr/portal_css/UVSQ/resourcejquery-ui-themessunburstjqueryui-cachekey2273.css);</style>
+    <style type="text/css">@import url(http://e-campus2.uvsq.fr/portal_css/UVSQ/resourcejalon.theme.stylesheetscssjalon-main-cachekey4316.css);</style>
+    <style type="text/css" media="screen">@import url(http://e-campus2.uvsq.fr/portal_css/UVSQ/resourcejalon.content.stylesheetsjalon-folder-cachekey1403.css);</style>
+    <style type="text/css" media="screen">@import url(http://e-campus2.uvsq.fr/portal_css/UVSQ/resourceuvsq.theme.stylesheetsjquery.popover-cachekey1603.css);</style>
+    <link rel="stylesheet" type="text/css" media="all" href="http://e-campus2.uvsq.fr/portal_css/UVSQ/ploneCustom-cachekey3363.css" />
+
+  
+    <link rel="kinetic-stylesheet" type="text/css" href="http://e-campus2.uvsq.fr/portal_kss/UVSQ/resourcetinymce.ksstinymce-cachekey8287.kss" />
+    <link rel="kinetic-stylesheet" type="text/css" href="http://e-campus2.uvsq.fr/portal_kss/UVSQ/at-cachekey4824.kss" />
+  
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/jquery-cachekey1014.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/sarissa-cachekey5733.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/dropdown-cachekey2830.js"></script>
+       <!--[if lt IE 8]>
+     
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/iefixes-cachekey8491.js"></script>
+       <![endif]-->
+     
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/resourcequickupload_staticswfobject-cachekey2662.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/resourcejquery-ui.min-cachekey1792.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/++resource++jalon.theme.javascripts/jquery.cookie.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/++resource++jalon.theme.javascripts/jquery.popover.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/++resource++jalon.theme.javascripts/jalon-main.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/++resource++jalon.content.javascripts/jquery.ui.touch-punch.min.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/resourcejalon.content.javascriptsjquery.ui.nestedSortable-cachekey7649.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/++resource++jalon.content.javascripts/jquery.datepicker.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/++resource++jalon.content.javascripts/jquery.datepicker.lang/fr.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/++resource++jalon.content.javascripts/jquery.timepicker.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/++resource++jalon.content.javascripts/jquery.timepicker.lang/jquery.ui.timepicker-fr.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/++resource++jalon.content.javascripts/jquery.noty.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/++resource++jalon.content.javascripts/jquery.noty.options.js"></script>
+    <script type="text/javascript" src="http://e-campus2.uvsq.fr/portal_javascripts/UVSQ/resourcejalon.content.javascriptsjalon-folder-cachekey8722.js"></script>
+
+
+<title>Système d'exploitation (2ème année) &mdash; e-campus 2</title>
+        
+    <link rel="author" href="http://e-campus2.uvsq.fr/author/nicopred" title="Information sur l'auteur" />
+
+
+
+    <link rel="shortcut icon" type="image/x-icon" href="http://e-campus2.uvsq.fr/favicon.ico" />
+    <link rel="apple-touch-icon" href="http://e-campus2.uvsq.fr/touch_icon.png" />
+
+
+<script type="text/javascript">
+        jQuery(function($){
+            $.datepicker.setDefaults(
+                jQuery.extend($.datepicker.regional['fr'],
+                {dateFormat: 'dd/mm/yy'}));
+        });
+        </script>
+
+    <link rel="home" href="http://e-campus2.uvsq.fr" title="Page d'accueil" />
+
+    <link rel="contents" href="http://e-campus2.uvsq.fr/sitemap" title="Plan du site" />
+
+
+
+
+
+
+    <link rel="search" href="http://e-campus2.uvsq.fr/search_form" title="Recherche dans ce site" />
+
+
+
+        
+        
+        
+        
+        
+
+        <meta name="viewport" content="width=device-width; initial-scale=1;" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <meta name="generator" content="Plone - http://plone.org" />
+    
+</head>
+
+<body class="template-cours_element_view portaltype-jaloncours section-cours icons-on role-authenticated" dir="ltr">
+
+<div id="visual-portal-wrapper">
+
+        <div id="portal-top" class="row">
+<div class="cell width-full position-0">
+            <div id="portal-header">
+    <p class="hiddenStructure">
+  <a accesskey="2" href="http://e-campus2.uvsq.fr/cours/nicopred/Cours-nicopred-20140909171718/cours_element_view?idElement=tp1-data*-*txt&amp;createurElement=nicopred&amp;typeElement=Page&amp;indexElement=7&amp;requete_ajax=0#content">Aller au contenu.</a> |
+
+  <a accesskey="6" href="http://e-campus2.uvsq.fr/cours/nicopred/Cours-nicopred-20140909171718/cours_element_view?idElement=tp1-data*-*txt&amp;createurElement=nicopred&amp;typeElement=Page&amp;indexElement=7&amp;requete_ajax=0#portlet-navigation-tree">Aller à la navigation</a>
+</p>
+
+<a id="portal-logo" title="e-campus 2" accesskey="1" href="http://e-campus2.uvsq.fr">
+    <img src="http://e-campus2.uvsq.fr/logo.jpg" alt="" title="" height="52" width="180" /></a>
+
+
+<ul id="portal-languageselector">
+    
+    <li class="language-en">
+        <a href="http://e-campus2.uvsq.fr/cours/nicopred/Cours-nicopred-20140909171718/switchLanguage?set_language=en" title="English">
+                <img width="14" height="11" alt="English" src="http://e-campus2.uvsq.fr/++resource++country-flags/gb.gif" title="English" />
+            </a>
+    </li>
+    
+    
+    <li class="currentLanguage language-fr">
+        <a href="http://e-campus2.uvsq.fr/cours/nicopred/Cours-nicopred-20140909171718/switchLanguage?set_language=fr" title="Français">
+                <img width="14" height="11" alt="Français" src="http://e-campus2.uvsq.fr/++resource++country-flags/fr.gif" title="Français" />
+            </a>
+    </li>
+    
+</ul>
+
+
+
+    
+    
+    <h5 class="hiddenStructure">Sections</h5>
+
+    <ul id="portal-globalnav"><li id="portaltab-cours" class="plain"><a href="http://e-campus2.uvsq.fr/cours/21300610" title="Mes cours">
+            	<span><strong>Mes cours</strong></span>
+          </a></li><li id="portaltab-logout" class="plain"><a href="http://e-campus2.uvsq.fr/logout" title="Déconnexion">
+            	<span><strong>Déconnexion</strong></span>
+          </a></li>
+    </ul>
+    
+
+    
+
+</div>
+
+</div>
+        </div>
+    <div id="portal-columns" class="row">
+
+        <div id="portal-column-content" class="cell width-full position-0">
+
+            <div id="viewlet-above-content"><div id="plone-lock-status">
+  
+</div>
+</div>
+
+            
+                <div class="documentEditable">
+
+                    <div id="edit-bar">
+
+    
+
+        <h5 class="hiddenStructure">Vues</h5>
+
+        <ul class="contentViews" id="content-views">
+
+            
+              <li id="contentview-view" class="selected">
+                <a href="http://e-campus2.uvsq.fr/cours/nicopred/Cours-nicopred-20140909171718/">Voir</a>
+              </li>
+            
+            
+              <li id="contentview-edit" class="plain">
+                <a href="http://e-campus2.uvsq.fr/cours/nicopred/Cours-nicopred-20140909171718/edit">Modifier</a>
+              </li>
+            
+
+        </ul>
+
+    
+
+
+<div class="contentActions">
+
+</div></div>
+
+                    
+
+    <dl class="portalMessage info" id="kssPortalMessage" style="display:none">
+        <dt>Info</dt>
+        <dd></dd>
+    </dl>
+
+
+
+                    
+                        <div id="content">
+
+                            
+
+                            
+
+	
+      <div id="content-core">
+        
+      <div class="contentHeader">
+       
+	    
+	  <!--<div class="contentHeader">-->
+		<div id="portal-breadcrumbs">
+		    <!--<span id="breadcrumbs-you-are-here" i18n:translate="you_are_here">You are here:</span>-->
+		    <span id="breadcrumbs-1">
+		        
+		            
+			            <a href="http://e-campus2.uvsq.fr" class="texte_icone icone_cours">Mes Cours</a>
+			            <span class="breadcrumbSeparator">&rsaquo;</span>
+		            
+		            
+		         
+		    </span>
+		    <span id="breadcrumbs-2">
+		        
+		            
+			            <a href="./" class="texte_icone icone_cours">Système d'exploitation (2ème année)</a>
+			            <span class="breadcrumbSeparator">&rsaquo;</span>
+		            
+		            
+		         
+		    </span>
+		    <span id="breadcrumbs-3">
+		        
+		            
+		            <span id="breadcrumbs-current" class="texte_icone None">tp1_code</span>
+		         
+		    </span>
+		</div>
+	  <!--</div>-->
+	
+	   
+	  </div>
+        <div class="documentFirstHeading">
+        	<h1>tp1_code</h1>
+        </div>
+        
+   <h2 class="texte_icone icone_information">Description :</h2>
+   <span class="element_vide">Aucune</span>
+   
+   <br /><br />
+   <div class="centrer">&lt;p&gt;#include &amp;lt;stdio.h&amp;gt;&lt;br /&gt;#include &amp;lt;fcntl.h&amp;gt;&lt;br /&gt;#include &amp;lt;unistd.h&amp;gt;&lt;br /&gt;&lt;br /&gt;#define MAXPERS 3&lt;br /&gt;#define TAILLE_NOM 15&lt;br /&gt;#define TAILLE_ADRESSE 25&lt;br /&gt;&lt;br /&gt;struct personne {&lt;br /&gt;  char nom[TAILLE_NOM];&lt;br /&gt;  int  age;&lt;br /&gt;  char adresse[TAILLE_ADRESSE];&lt;br /&gt;};&lt;br /&gt;&lt;br /&gt;typedef struct personne Personne;&lt;br /&gt;&lt;br /&gt;/* saisie des informations pour les MAXPERS personnes */&lt;br /&gt;void saisiePersonnes(Personne *p) { &lt;br /&gt;  &lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;/* sauvegarde des informations saisies dans le fichier &amp;quot;personne.data&amp;quot; */&lt;br /&gt;void sauvegardePersonnes(Personne *p){ &lt;br /&gt; &lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;/* lecture du fichier &amp;quot;personne.data&amp;quot; entier */&lt;br /&gt;void lecturePersonnes(Personne *p){ &lt;br /&gt;  int f;&lt;br /&gt;  f=open(&amp;quot;personne.data&amp;quot;,O_RDONLY);&lt;br /&gt;  read (f, p, MAXPERS*sizeof(Personne));&lt;br /&gt;  close (f);&lt;br /&gt;&lt;br /&gt;  for (i=0; i&amp;lt;MAXPERS; i++) {&lt;br /&gt;	 printf (&amp;quot;Personne %d:\n\tNom: %s\n\tAge: %d\n\tAdresse: %s\n&amp;quot;,i, p[i].nom, p[i].age, p[i].adresse);&lt;br /&gt;  }&lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;/* lecture d'un enregistrement particulier (num) du fichier &amp;quot;personne.data&amp;quot; */&lt;br /&gt;void lireUnePersonne(Personne *p,int num){ &lt;br /&gt;  &lt;br /&gt;}&lt;br /&gt;&lt;br /&gt;/* fonctionnement du programme :&lt;br /&gt; * - s'il n'y a pas d'arguments, le programme saisi les personnes et les sauvegarde &lt;br /&gt; *   dans le fichier avant de se terminer ;&lt;br /&gt; * - si l'argument est 'a', le programme lit le fichier des personnes, l'affiche et se &lt;br /&gt; *   termine ; si le fichier &amp;quot;personne.data&amp;quot; n'existe pas, afficher un message d'erreur ;&lt;br /&gt; * - si l'argument est un chiffre entre 0 et MAXPERS, lire l'enregistrement correspondant &lt;br /&gt; *   et l'afficher, sinon erreur.&lt;br /&gt; */&lt;br /&gt;&lt;br /&gt;int main(int argc, char *argv[]) {&lt;br /&gt;  Personne pers[MAXPERS];&lt;br /&gt;  int i;&lt;br /&gt;&lt;br /&gt;  if(argc == 1) { /* pas d'arguments */&lt;br /&gt;	 saisiePersonnes (pers);&lt;br /&gt;	 sauvegardePersonnes (pers);&lt;br /&gt;  }&lt;br /&gt;  else if(strcmp(argv[1],&amp;quot;a&amp;quot;) == 0) { &lt;br /&gt;	 lecturePersonnes (pers);&lt;br /&gt;  }&lt;br /&gt;  else { &lt;br /&gt;	 lireUnePersonne (pers, atoi(argv[1]));&lt;br /&gt;  }&lt;br /&gt;  return 0;&lt;br /&gt;}&lt;/p&gt;</div>
+
+      </div>
+    
+                        </div>
+                    
+
+                    
+                </div>
+            
+
+            <div id="viewlet-below-content">
+</div>
+            
+            <!--<div class="arrondi tab_bottom" i18n:domain="jalon.theme">
+                <a href="#" class="active_high_contrast texte_icone icone_contrast" i18n:translate="">Affichage contrasté</a> 
+                <a href="#" class="desactive_high_contrast texte_icone icone_contrast" i18n:translate="">Affichage normal</a>
+            </div>-->
+        </div>
+
+        
+        
+
+        
+        
+    </div>
+
+
+    <div class="row">
+            <div class="row">
+        <div class="cell width-full position-0">
+            <div id="portal-footer">
+                <p>
+                    <span class="cache">
+                        Environnement pédagogique e-campus 2
+                        • © <a href="http://unice.fr" class="link" title="Université Nice Sophia antipolis (UNS)">
+                                Université Nice Sophia antipolis (UNS)
+                            </a> •
+                    </span>
+                    <a class="link cache" href="http://www.cip.uvsq.fr/centre-d-innovation-pedagogique-cip-/langue-fr/e-campus2/mentions-legales-e-campus2-257321.kjsp">Mentions légales -</a>
+                    <a class="link cache" href="http://www.cip.uvsq.fr/centre-d-innovation-pedagogique-cip-/langue-fr/e-campus2/mentions-legales-e-campus2-257321.kjsp">Crédits -</a>
+                    <a class="link" href="http://www.uvsq.fr/la-direction-des-etudes-et-de-la-vie-universitaire-devu--323051.kjsp?RH=ACCUEIL-FR">Contacts</a>
+                </p>
+            </div>
+        </div>
+    </div>
+
+<script type='text/javascript'>
+var _gaq = _gaq || [];
+_gaq.push(['_setAccount', 'UA-35147026-1']);
+_gaq.push(['_setDomainName', 'uvsq.fr']);
+_gaq.push(['_trackPageview']);
+_gaq.push(['_setCustomVar',
+           1,
+           'User Type',
+           'Etudiant',
+           1
+           ]);
+_gaq.push(['_setCustomVar',
+           2,
+           'User Id',
+           '0wKAC/iIJzKcXF8jGF7t6LU2oi5+g+UOJVi6K7H8w9Q=',
+           1
+           ]);
+_gaq.push(['_setCustomVar',
+           3,
+           'Id Cours',
+           'Cours-nicopred-20140909171718',
+           3
+           ]);
+
+(function() {
+  var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+  ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+  var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+})();
+
+</script>
+
+        <div id="kss-spinner">
+            <img alt="" src="http://e-campus2.uvsq.fr/spinner.gif" />
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
+

@@ -1,0 +1,10 @@
+n=87
+a=%pi
+b=2*%pi
+h=(b-a)/n
+x1=a:h:b-h
+x2=a+h:h:b
+y1=log(x1)-sin(x1)
+y2=log(x2)-sin(x2)
+S1=h*sum(y1)
+S2=h*sum(y2)
